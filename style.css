@@ -1,0 +1,56 @@
+.content {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    font-size: 2em;
+    padding-top: 20%;
+    color: #8C9EFF;
+}
+
+.square1 {
+    background-color: #01579B;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+}
+
+.square1:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square1:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.content2 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    padding-top: 20%;
+    color: #F44336;
+}
+
+.square2 {
+    background-color: #FFEBEE;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    left: 49%;
+    bottom: 379px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.2s ease-in-out;
+}
+
+.square2:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.square2:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
